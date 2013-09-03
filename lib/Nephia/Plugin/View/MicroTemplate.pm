@@ -1,8 +1,8 @@
-package Voson::Plugin::View::MicroTemplate;
+package Nephia::Plugin::View::MicroTemplate;
 use 5.008005;
 use strict;
 use warnings;
-use parent 'Voson::Plugin';
+use parent 'Nephia::Plugin';
 use Text::MicroTemplate::File;
 use Encode;
 
@@ -34,11 +34,11 @@ __END__
 
 =head1 NAME
 
-Voson::Plugin::View::MicroTemplate - A plugin for Voson that provides template mechanism
+Nephia::Plugin::View::MicroTemplate - A plugin for Nephia that provides template mechanism
 
 =head1 SYNOPSIS
 
-    use Voson plugins => [
+    use Nephia plugins => [
         'View::MicroTemplate' => +{
             include_path => [ qw/ view / ],
         },
@@ -50,7 +50,7 @@ Voson::Plugin::View::MicroTemplate - A plugin for Voson that provides template m
 
 =head1 DESCRIPTION
 
-Voson::Plugin::View::MicroTemplate provides render DSL for rendering template.
+Nephia::Plugin::View::MicroTemplate provides render DSL for rendering template.
 
 =head1 DSL
 

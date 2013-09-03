@@ -1,10 +1,10 @@
 # NAME
 
-Voson::Plugin::View::MicroTemplate - A plugin for Voson that provides template mechanism
+Nephia::Plugin::View::MicroTemplate - A plugin for Nephia that provides template mechanism
 
 # SYNOPSIS
 
-    use Voson plugins => [
+    use Nephia plugins => [
         'View::MicroTemplate' => +{
             include_path => [ qw/ view / ],
         },
@@ -17,7 +17,7 @@ Voson::Plugin::View::MicroTemplate - A plugin for Voson that provides template m
 
 # DESCRIPTION
 
-Voson::Plugin::View::MicroTemplate provides render DSL for rendering template.
+Nephia::Plugin::View::MicroTemplate provides render DSL for rendering template.
 
 # DSL
 
