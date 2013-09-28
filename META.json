@@ -4,7 +4,7 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510",
    "license" : [
       "perl_5"
    ],
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Nephia" : "0",
+            "Nephia" : "0.80",
             "Text::MicroTemplate::File" : "0",
             "perl" : "5.008005"
          }
@@ -56,13 +56,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-View-MicroTemplate/issues"
+         "web" : "https://github.com/nephia/Nephia-Plugin-View-MicroTemplate/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-Plugin-View-MicroTemplate",
+      "homepage" : "https://github.com/nephia/Nephia-Plugin-View-MicroTemplate",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-Plugin-View-MicroTemplate.git",
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-View-MicroTemplate"
+         "url" : "git://github.com/nephia/Nephia-Plugin-View-MicroTemplate",
+         "web" : "https://github.com/nephia/Nephia-Plugin-View-MicroTemplate"
       }
    },
    "version" : "0.01"
